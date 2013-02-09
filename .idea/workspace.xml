@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96790dcd-8f83-4df1-8f28-e49cd0618332" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testpages/static/css/design.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testpages/templates/design.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nmm/urls.py" afterPath="$PROJECT_DIR$/nmm/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/home.html" afterPath="$PROJECT_DIR$/testpages/templates/home.html" />
     </list>
     <ignored path="nmm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,19 +31,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nmm/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="88" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+            <state line="10" column="14" selection-start="345" selection-end="345" vertical-scroll-proportion="0.433526">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="design.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="design.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpages/templates/design.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="35" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.8543689">
+            <state line="82" column="35" selection-start="2803" selection-end="2803" vertical-scroll-proportion="-11.0">
               <folding />
             </state>
           </provider>
@@ -94,7 +90,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="792" />
+    <option name="y" value="24" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
   </component>
@@ -353,7 +349,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="792" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -442,9 +438,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nmm/urls.py">
+    <entry file="file://$PROJECT_DIR$/testpages/static/css/design.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="88" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+        <state line="12" column="14" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpages/templates/design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="35" selection-start="2803" selection-end="2803" vertical-scroll-proportion="-11.0">
           <folding />
         </state>
       </provider>
@@ -456,16 +459,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testpages/static/css/design.css">
+    <entry file="file://$PROJECT_DIR$/nmm/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testpages/templates/design.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="35" selection-start="2803" selection-end="2803" vertical-scroll-proportion="0.8543689">
+        <state line="10" column="14" selection-start="345" selection-end="345" vertical-scroll-proportion="0.433526">
           <folding />
         </state>
       </provider>
