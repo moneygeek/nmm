@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96790dcd-8f83-4df1-8f28-e49cd0618332" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/static/css/base.css" afterPath="$PROJECT_DIR$/testpages/static/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/static/css/design.css" afterPath="$PROJECT_DIR$/testpages/static/css/design.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nmm/urls.py" afterPath="$PROJECT_DIR$/nmm/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/deal_setup.html" afterPath="$PROJECT_DIR$/testpages/templates/deal_setup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/design.html" afterPath="$PROJECT_DIR$/testpages/templates/design.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/execution.html" afterPath="$PROJECT_DIR$/testpages/templates/execution.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/index.php" afterPath="$PROJECT_DIR$/testpages/templates/index.php" />
     </list>
     <ignored path="nmm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +39,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nmm/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
+            <state line="9" column="75" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,7 +57,7 @@
       <file leaf-file-name="design.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpages/templates/design.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="113" selection-start="542" selection-end="635" vertical-scroll-proportion="-10.0">
+            <state line="23" column="22" selection-start="802" selection-end="802" vertical-scroll-proportion="-10.041667">
               <folding />
             </state>
           </provider>
@@ -71,10 +72,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="execution.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="execution.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpages/templates/execution.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="56" selection-start="168" selection-end="168" vertical-scroll-proportion="0.25083613">
+            <state line="25" column="22" selection-start="956" selection-end="956" vertical-scroll-proportion="-3.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testpages/templates/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="4" selection-start="308" selection-end="308" vertical-scroll-proportion="0.38709676">
               <folding />
             </state>
           </provider>
@@ -83,7 +93,7 @@
       <file leaf-file-name="deal_setup.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpages/templates/deal_setup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="113" selection-start="639" selection-end="639" vertical-scroll-proportion="-6.875">
+            <state line="5" column="56" selection-start="116" selection-end="168" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
@@ -124,14 +134,15 @@
         <option value="$PROJECT_DIR$/testpages/templates/home.html" />
         <option value="$PROJECT_DIR$/testpages/static/css/messages.css" />
         <option value="$PROJECT_DIR$/testpages/templates/messages.html" />
-        <option value="$PROJECT_DIR$/nmm/urls.py" />
         <option value="$PROJECT_DIR$/testpages/static/css/deal_setup.css" />
         <option value="$PROJECT_DIR$/testpages/static/css/execution.css" />
-        <option value="$PROJECT_DIR$/testpages/templates/design.html" />
         <option value="$PROJECT_DIR$/testpages/static/css/design.css" />
         <option value="$PROJECT_DIR$/testpages/static/css/base.css" />
+        <option value="$PROJECT_DIR$/nmm/urls.py" />
         <option value="$PROJECT_DIR$/testpages/templates/deal_setup.html" />
+        <option value="$PROJECT_DIR$/testpages/templates/design.html" />
         <option value="$PROJECT_DIR$/testpages/templates/execution.html" />
+        <option value="$PROJECT_DIR$/testpages/templates/index.php" />
       </list>
     </option>
   </component>
@@ -511,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nmm/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testpages/static/css/deal_setup.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="1" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0867052">
@@ -546,23 +550,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testpages/templates/design.html">
+    <entry file="file://$PROJECT_DIR$/nmm/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="113" selection-start="542" selection-end="635" vertical-scroll-proportion="-10.0">
+        <state line="9" column="75" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testpages/templates/deal_setup.html">
+    <entry file="file://$PROJECT_DIR$/testpages/templates/design.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="113" selection-start="639" selection-end="639" vertical-scroll-proportion="-6.875">
+        <state line="23" column="22" selection-start="802" selection-end="802" vertical-scroll-proportion="-10.041667">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testpages/templates/execution.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="56" selection-start="168" selection-end="168" vertical-scroll-proportion="0.25083613">
+        <state line="25" column="22" selection-start="956" selection-end="956" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpages/templates/deal_setup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="56" selection-start="116" selection-end="168" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpages/templates/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="4" selection-start="308" selection-end="308" vertical-scroll-proportion="0.38709676">
           <folding />
         </state>
       </provider>

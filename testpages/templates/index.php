@@ -2,8 +2,9 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Negotiation Manager</title>
-	<link rel="stylesheet" href="./static/css/bootstrap.css" />
-	<link rel="stylesheet" href="./static/css/design.css" />
+	<link rel="stylesheet" href="/static/css/bootstrap.css" />
+	<link rel="stylesheet" href="/static/css/base.css"/>
+	<link rel="stylesheet" href="/static/css/design.css" />
 	<style>
 	table.table td {
 	}
@@ -18,6 +19,21 @@
 </head>
 <body>
 <div class="container">
+<div class="navbar">
+    <div class="navbar-inner">
+            <div class="row-fluid">
+                <div class="span2"><a href="#"><img src="/static/img/nmlogo.jpg"></a></div>
+
+                <ul class="nav pull-right">
+                    <li><a id="ask_for_help" href="#ask_for_help_modal" data-toggle="modal">Ask For Help</a></li>
+                    <li><a href="#">Jim</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <ul class="breadcrumb">
+        <li>Input</li>
+    </ul>
 	<h3>Negotiators:</h3>
 	<table class="table" style="width: 735px">
 		<tr class="strip">
@@ -179,6 +195,31 @@
 George Vernon, Sales Manager</textarea></td>
 		</tr>
 	</table>
+	<div class="row-fluid">
+                <div class="span5 offset5">
+                    <a href="/design/" class="btn btn-primary">Next Page</a>
+                </div>
+            </div>
+
+
+	<div class="modal hide fade" id="ask_for_help_modal">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4>Ask For Help</h4>
+                </div>
+                <div class="modal-body">
+                    <select>
+                        <option value="contract_terms">Contract Terms</option>
+                        <option value="neg_strategies">Negotiating Strategies</option>
+                        <option value="neg_process">Tips of Negotiating Process</option>
+                        <option value="contract_analysis">Contract Analysis</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn" data-dismiss="modal">Close</a>
+                    <a href="#" class="btn btn-primary" data-dismiss="modal">Message Expert</a>
+                </div>
+            </div>
 </div>
 </body>
 </html>
