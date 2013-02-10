@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96790dcd-8f83-4df1-8f28-e49cd0618332" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testpages/templates/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testpages/static/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testpages/static/css/messages.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testpages/templates/execution.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testpages/templates/messages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nmm/urls.py" afterPath="$PROJECT_DIR$/nmm/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/static/css/design.css" afterPath="$PROJECT_DIR$/testpages/static/css/design.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/design.html" afterPath="$PROJECT_DIR$/testpages/templates/design.html" />
     </list>
     <ignored path="nmm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,16 +41,61 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nmm/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="4" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+            <state line="11" column="19" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testpages/templates/home.html">
+      <file leaf-file-name="design.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testpages/templates/design.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="34" selection-end="34" vertical-scroll-proportion="0.13975155">
+            <state line="8" column="6" selection-start="0" selection-end="3189" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="execution.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testpages/templates/execution.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="7" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.94055945">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testpages/templates/messages.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="0" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-11.208333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testpages/static/css/messages.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="1" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="design.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testpages/static/css/design.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="1" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testpages/static/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,15 +123,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/nmm/urls.py" />
         <option value="$PROJECT_DIR$/nmm/settings.py" />
         <option value="$PROJECT_DIR$/testpages/templates/home.html" />
+        <option value="$PROJECT_DIR$/nmm/urls.py" />
+        <option value="$PROJECT_DIR$/testpages/static/css/design.css" />
+        <option value="$PROJECT_DIR$/testpages/static/css/base.css" />
+        <option value="$PROJECT_DIR$/testpages/templates/design.html" />
+        <option value="$PROJECT_DIR$/testpages/static/css/messages.css" />
+        <option value="$PROJECT_DIR$/testpages/templates/messages.html" />
+        <option value="$PROJECT_DIR$/testpages/templates/execution.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="792" />
+    <option name="y" value="24" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
   </component>
@@ -157,6 +215,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nmm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nmm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testpages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nmm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nmm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testpages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nmm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nmm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testpages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -276,7 +396,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="792" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -358,9 +478,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nmm/urls.py">
+    <entry file="file://$PROJECT_DIR$/testpages/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.32608697">
           <folding />
         </state>
       </provider>
@@ -372,9 +492,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testpages/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/nmm/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="34" selection-end="34" vertical-scroll-proportion="0.13975155">
+        <state line="11" column="19" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpages/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpages/static/css/design.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpages/static/css/messages.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="1" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpages/templates/messages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-11.208333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpages/templates/design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="0" selection-end="3189" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpages/templates/execution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="7" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.94055945">
           <folding />
         </state>
       </provider>
