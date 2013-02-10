@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96790dcd-8f83-4df1-8f28-e49cd0618332" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nmm/urls.py" afterPath="$PROJECT_DIR$/nmm/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/deal_setup.html" afterPath="$PROJECT_DIR$/testpages/templates/deal_setup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/design.html" afterPath="$PROJECT_DIR$/testpages/templates/design.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/execution.html" afterPath="$PROJECT_DIR$/testpages/templates/execution.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/index.php" afterPath="$PROJECT_DIR$/testpages/templates/index.php" />
     </list>
     <ignored path="nmm.iws" />
@@ -84,7 +79,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testpages/templates/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="4" selection-start="308" selection-end="308" vertical-scroll-proportion="0.38709676">
+            <state line="223" column="67" selection-start="7725" selection-end="7725" vertical-scroll-proportion="0.8548387">
               <folding />
             </state>
           </provider>
@@ -93,7 +88,7 @@
       <file leaf-file-name="deal_setup.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpages/templates/deal_setup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="56" selection-start="116" selection-end="168" vertical-scroll-proportion="-3.125">
+            <state line="81" column="55" selection-start="3159" selection-end="3325" vertical-scroll-proportion="-6.2083335">
               <folding />
             </state>
           </provider>
@@ -573,14 +568,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testpages/templates/deal_setup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="56" selection-start="116" selection-end="168" vertical-scroll-proportion="-3.125">
+        <state line="81" column="55" selection-start="3159" selection-end="3325" vertical-scroll-proportion="-6.2083335">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testpages/templates/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="308" selection-end="308" vertical-scroll-proportion="0.38709676">
+        <state line="223" column="67" selection-start="7725" selection-end="7725" vertical-scroll-proportion="0.8548387">
           <folding />
         </state>
       </provider>

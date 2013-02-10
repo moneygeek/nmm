@@ -220,6 +220,8 @@ George Vernon, Sales Manager</textarea></td>
                     <a href="#" class="btn btn-primary" data-dismiss="modal">Message Expert</a>
                 </div>
             </div>
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+                    <script src='/static/js/bootstrap.js'></script>
 </div>
 </body>
 </html>
