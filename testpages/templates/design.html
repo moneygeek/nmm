@@ -23,102 +23,143 @@
         <li><a href="/home/">Input</a><span class="divider">/</span></li>
         <li>Deal Design</li>
     </ul>
-    <h3>Summary</h3>
-    <div class="row-fluid">
-        <div class="span3">
-            Definition of Success
+    <h3>Deal Design</h3>
+    <div id="content">
+        <div class="row-fluid">
+            <div class="span3">
+                Definition of Success
+            </div>
+            <div class="span9">
+                <select>
+                    <option>Maintain relationship</option>
+                    <option>Minimize amount to time to achieve objectives</option>
+                    <option>Achieve desired savings</option>
+                </select>
+            </div>
         </div>
-        <div class="span9">
-            <select>
-                <option>Maintain relationship</option>
-                <option>Minimize amount to time to achieve objectives</option>
-                <option>Achieve desired savings</option>
-            </select>
+        <div class="row-fluid">
+            <div class="span3">
+                Critical Contract Terms
+            </div>
+            <div class="span9">
+                <ul>
+                    <li>Scope of work describing services to be performed</li>
+                    <li>Term of contract- start and date</li>
+                    <li>Time and materials schedule</li>
+                    <li><input type="text"><input id="add_terms_btn" type="button" class="btn" value="Add"></li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="row-fluid">
-        <div class="span3">
-            Critical Contract Terms
-        </div>
-        <div class="span9">
-            <ul>
-                <li>Scope of work describing services to be performed</li>
-                <li>Term of contract- start and date</li>
-                <li>Time and materials schedule</li>
-                <li>Number of companies syndicate to equipment</li>
-                <li>Location of data centre</li>
-                <li>Available to inspect centre on demand</li>
-                <li>Testing access and frequencies</li>
-                <li>First access if double booked</li>
-                <li>Penalties for failure to meet recovery time objectives</li>
-                <li>Key personnel</li>
-                <li>Protection of information</li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="row-fluid">
-        <div class="span3">
-            Non-negotiable Items
+        <div class="row-fluid">
+            <div class="span3">
+                Non-negotiable Items
+            </div>
+            <div class="span9">
+                <ul>
+                    <li>Service level agreement</li>
+                    <li><input type="text"><input id="negotiable_btn" type="button" class="btn" value="Add"></li>
+                </ul>
+            </div>
         </div>
-        <div class="span9">
-            <ul>
-                <li>Service level agreement</li>
-            </ul>
-        </div>
-    </div>
 
-    <div class="row-fluid">
-        <div class="span3">
-            Negotiation History
+        <div class="row-fluid">
+            <div class="span3">
+                Negotiation History
+            </div>
+            <div class="span9">
+                Not documented
+            </div>
         </div>
-        <div class="span9">
-            Not documented
+
+        <div class="row-fluid">
+            <div class="span3">
+                Biggest Concerns
+            </div>
+            <div class="span9">
+                <ul>
+                    <li><input type="text"><input id="negotiable_btn" type="button" class="btn" value="Add"></li>
+                </ul>
+            </div>
         </div>
-    </div>
 
-    <div class="row-fluid">
-        <div class="span3"><h3>Expert Feedback</h3></div>
-        <div class="span2"><a id="ask_for_help" class="btn" href="#ask_for_help_modal" data-toggle="modal">Ask For Help</a></div>
-    </div>
-    <div class="row-fluid">
-        <input type="text" class="search_text">
-    </div>
-
-    <div class="row-fluid">
-        <div class="span3"><h3>Internal Advice</h3></div>
-        <div class="span2"><a id="search_history" class="btn" href="#ask_for_help_modal" data-toggle="modal">Search</a></div>
-    </div>
-    <div class="row-fluid">
-        <input type="text" class="search_text">
-    </div>
-
-    <div class="row-fluid">
-        <h3>Tactics</h3>
-        <textarea id="tactics_text_area" class="search_text"></textarea>
-    </div>
-
-    <div class="modal hide fade" id="ask_for_help_modal">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4>Ask For Help</h4>
+        <div class="row-fluid">
+            <div class="span3">
+                Bet The Company Deal
+            </div>
+            <div class="span4">
+                <select>
+                    <option>Yes</option>
+                    <option selected="selected">No</option>
+                </select>
+            </div>
+            <div class="span4">
+                <select>
+                    <option>Outsourcing</option>
+                    <option>Merger</option>
+                    <option>Acquisition</option>
+                    <option>Joint Venture</option>
+                </select>
+            </div>
         </div>
-        <div class="modal-body">
-            <select>
-                <option value="contract_terms">Contract Terms</option>
-                <option value="neg_strategies">Negotiating Strategies</option>
-                <option value="neg_process">Tips of Negotiating Process</option>
-                <option value="contract_analysis">Contract Analysis</option>
-            </select>
-        </div>
-        <div class="modal-footer">
-            <a href="#" class="btn" data-dismiss="modal">Close</a>
-            <a href="#" class="btn btn-primary" data-dismiss="modal">Message Expert</a>
-        </div>
-    </div>
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src='/static/js/bootstrap.js'></script>
+        <!--
+        <div class="row-fluid">
+            <div class="span3"><h3>Expert Feedback</h3></div>
+            <div class="span2"><a id="ask_for_help" class="btn" href="#ask_for_help_modal" data-toggle="modal">Ask For Help</a></div>
+        </div>
+        <div class="row-fluid">
+            <input type="text" class="search_text">
+        </div>
+
+        <div class="row-fluid">
+            <div class="span3"><h3>Internal Advice</h3></div>
+            <div class="span2"><a id="search_history" class="btn" href="#search_history_modal" data-toggle="modal">Search</a></div>
+        </div>
+        <div class="row-fluid">
+            <input type="text" class="search_text">
+        </div>
+        -->
+
+        <div class="modal hide fade" id="ask_for_help_modal">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4>Ask For Help</h4>
+            </div>
+            <div class="modal-body">
+                <select>
+                    <option value="contract_terms">Contract Terms</option>
+                    <option value="neg_strategies">Negotiating Strategies</option>
+                    <option value="neg_process">Tips of Negotiating Process</option>
+                    <option value="contract_analysis">Contract Analysis</option>
+                </select>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal">Close</a>
+                <a href="#" class="btn btn-primary" data-dismiss="modal">Message Expert</a>
+            </div>
+        </div>
+        <div class="modal hide fade" id="search_history_modal">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4>Search History</h4>
+            </div>
+            <div class="modal-body">
+                No prior history
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span9 offset3">
+                <a href="/deal_setup/" class="btn btn-primary">Next Page</a>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src='/static/js/bootstrap.js'></script>
+    </div>
 </div>
 </body>
 </html>

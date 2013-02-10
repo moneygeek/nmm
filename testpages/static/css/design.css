@@ -13,3 +13,20 @@
 .search_text {
     width: 330px;
 }
+
+#add_terms_btn {
+    margin-bottom: 9px;
+}
+
+#negotiable_btn {
+    margin-bottom: 9px;
+}
+
+li {
+
+    height: 30px;
+}
+
+#content .row-fluid {
+    margin-bottom: 25px;
+}
