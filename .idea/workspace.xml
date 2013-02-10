@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96790dcd-8f83-4df1-8f28-e49cd0618332" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testpages/static/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testpages/static/css/messages.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testpages/templates/execution.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testpages/templates/messages.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nmm/urls.py" afterPath="$PROJECT_DIR$/nmm/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/static/css/design.css" afterPath="$PROJECT_DIR$/testpages/static/css/design.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/static/css/base.css" afterPath="$PROJECT_DIR$/testpages/static/css/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/design.html" afterPath="$PROJECT_DIR$/testpages/templates/design.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/execution.html" afterPath="$PROJECT_DIR$/testpages/templates/execution.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpages/templates/messages.html" afterPath="$PROJECT_DIR$/testpages/templates/messages.html" />
     </list>
     <ignored path="nmm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,25 +39,25 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nmm/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="19" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+            <state line="12" column="94" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="design.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="design.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testpages/templates/design.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="6" selection-start="0" selection-end="3189" vertical-scroll-proportion="-5.0">
+            <state line="75" column="26" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.64705884">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="execution.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="execution.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpages/templates/execution.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="7" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.94055945">
+            <state line="16" column="20" selection-start="542" selection-end="570" vertical-scroll-proportion="-8.083333">
               <folding />
             </state>
           </provider>
@@ -68,7 +66,7 @@
       <file leaf-file-name="messages.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpages/templates/messages.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-11.208333">
+            <state line="16" column="48" selection-start="572" selection-end="572" vertical-scroll-proportion="-10.0">
               <folding />
             </state>
           </provider>
@@ -95,7 +93,7 @@
       <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpages/static/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
+            <state line="7" column="17" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,13 +123,13 @@
       <list>
         <option value="$PROJECT_DIR$/nmm/settings.py" />
         <option value="$PROJECT_DIR$/testpages/templates/home.html" />
-        <option value="$PROJECT_DIR$/nmm/urls.py" />
         <option value="$PROJECT_DIR$/testpages/static/css/design.css" />
+        <option value="$PROJECT_DIR$/testpages/static/css/messages.css" />
+        <option value="$PROJECT_DIR$/nmm/urls.py" />
+        <option value="$PROJECT_DIR$/testpages/templates/execution.html" />
+        <option value="$PROJECT_DIR$/testpages/templates/messages.html" />
         <option value="$PROJECT_DIR$/testpages/static/css/base.css" />
         <option value="$PROJECT_DIR$/testpages/templates/design.html" />
-        <option value="$PROJECT_DIR$/testpages/static/css/messages.css" />
-        <option value="$PROJECT_DIR$/testpages/templates/messages.html" />
-        <option value="$PROJECT_DIR$/testpages/templates/execution.html" />
       </list>
     </option>
   </component>
@@ -255,6 +253,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -492,20 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nmm/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testpages/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testpages/static/css/design.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="1" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
@@ -520,23 +508,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testpages/templates/messages.html">
+    <entry file="file://$PROJECT_DIR$/nmm/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1119" selection-end="1119" vertical-scroll-proportion="-11.208333">
+        <state line="12" column="94" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testpages/templates/design.html">
+    <entry file="file://$PROJECT_DIR$/testpages/templates/messages.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="6" selection-start="0" selection-end="3189" vertical-scroll-proportion="-5.0">
+        <state line="16" column="48" selection-start="572" selection-end="572" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpages/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testpages/templates/execution.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="7" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.94055945">
+        <state line="16" column="20" selection-start="542" selection-end="570" vertical-scroll-proportion="-8.083333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpages/templates/design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="26" selection-start="2437" selection-end="2437" vertical-scroll-proportion="0.64705884">
           <folding />
         </state>
       </provider>

@@ -1,8 +1,9 @@
 body {
-    background-color: #56828C;
+    background-color: #ffffff;
 }
 
 #parent_container {
     background-color: #ffffff;
     padding: 0px 15px;
+    font-size: 18px;
 }
